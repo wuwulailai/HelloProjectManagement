@@ -15,6 +15,7 @@
 		A0B7BC5D1BFD9E5C008EF51A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B7BC5B1BFD9E5C008EF51A /* LaunchScreen.xib */; };
 		A0B7BC691BFD9E5D008EF51A /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7BC681BFD9E5D008EF51A /* GitDemoTests.m */; };
 		A0B7BC741BFDA29C008EF51A /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7BC731BFDA29C008EF51A /* TestClass.m */; };
+		A0B7BC8C1BFDCAE8008EF51A /* ssss.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7BC8B1BFDCAE8008EF51A /* ssss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		A0B7BC681BFD9E5D008EF51A /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
 		A0B7BC721BFDA29C008EF51A /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		A0B7BC731BFDA29C008EF51A /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		A0B7BC8A1BFDCAE8008EF51A /* ssss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssss.h; sourceTree = "<group>"; };
+		A0B7BC8B1BFDCAE8008EF51A /* ssss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 		A0B7BC401BFD9E5C008EF51A = {
 			isa = PBXGroup;
 			children = (
+				A0B7BC8A1BFDCAE8008EF51A /* ssss.h */,
+				A0B7BC8B1BFDCAE8008EF51A /* ssss.m */,
 				A0B7BC4B1BFD9E5C008EF51A /* GitDemo */,
 				A0B7BC651BFD9E5D008EF51A /* GitDemoTests */,
 				A0B7BC4A1BFD9E5C008EF51A /* Products */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B7BC8C1BFDCAE8008EF51A /* ssss.m in Sources */,
 				A0B7BC741BFDA29C008EF51A /* TestClass.m in Sources */,
 				A0B7BC551BFD9E5C008EF51A /* ViewController.m in Sources */,
 				A0B7BC521BFD9E5C008EF51A /* AppDelegate.m in Sources */,
