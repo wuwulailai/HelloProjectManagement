@@ -25,7 +25,10 @@
     int a = 5;
     int b = 10;
     self.sum = a + b;
-    NSLog('the result is :%d',self.sum);
+    NSLog(@'the result is :%d',self.sum);
+    [self sayHello];
 }
-
+-(void)sayHello{
+    NSLog(@"Hello");
+}
 @end

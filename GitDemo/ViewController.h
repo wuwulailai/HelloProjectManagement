@@ -12,5 +12,6 @@
 
 @property (nonatomic)int sum;
 @property (nonatomic) TestClass *testClass;
+-(void)sayHello;
 @end
 
