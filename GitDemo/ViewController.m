@@ -26,6 +26,9 @@
     int b = 10;
     self.sum = a + b;
     NSLog('the result is :%d',self.sum);
+    [self sayByeBye];
 }
-
+-(void)sayByeBye{
+    NSLog(@"Bye-Bye");
+}
 @end
